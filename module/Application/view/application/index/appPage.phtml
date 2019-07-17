@@ -1,0 +1,19 @@
+<div class="jumbotron">
+    <h1>Добро пожаловать на сайт <?= $this->escapeHtml($appName); ?></h1>
+
+    <p>
+        <?= $this->escapeHtml($appDescription); ?>
+    </p>
+
+</div>
+
+<div class="row">
+
+    <?= $this->catalogue ?>
+    
+    <?= $this->content ?>
+    
+    <?= $this->basket ?>
+    
+</div>
+

@@ -5,9 +5,6 @@ vendor/
 # Local configs
 config/autoload/*.local.php
 
-# Binary gettext files
-*.mo
-
 # Data
 data/logs/
 data/cache/
@@ -19,6 +16,6 @@ temp/
 data/DoctrineORMModule/Proxy/
 data/DoctrineORMModule/cache/
 
-# Legacy ZF1
-demos/
-extras/documentation
+#
+nbproject/
+logs/
